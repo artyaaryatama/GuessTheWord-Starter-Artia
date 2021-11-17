@@ -36,7 +36,7 @@
             android:textStyle="normal"
             app:layout_constraintBottom_toTopOf="@+id/score_text"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintHorizontal_bias="0.515"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed" />
@@ -63,16 +63,16 @@
             android:id="@+id/last_word"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="460dp"
             android:fontFamily="sans-serif"
             android:text="@string/kata_terakhir"
             android:textColor="@color/black_text_color"
             android:textSize="24sp"
             android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/play_again_button"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.207"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/score_text"
+            app:layout_constraintVertical_bias="0.122"
             app:layout_constraintVertical_chainStyle="packed" />
 
         <TextView
@@ -83,14 +83,13 @@
             android:fontFamily="sans-serif"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textColor="@color/colorAccent"
-            android:textSize="24sp"
+            android:textSize="40sp"
             android:textStyle="normal"
             app:layout_constraintBottom_toTopOf="@+id/play_again_button"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.764"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.658"
+            app:layout_constraintTop_toBottomOf="@+id/last_word"
+            app:layout_constraintVertical_bias="0.156"
             tools:text="&quot;Tuna&quot;" />
 
         <Button
